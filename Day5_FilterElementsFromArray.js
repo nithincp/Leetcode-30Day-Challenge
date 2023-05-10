@@ -8,4 +8,8 @@ var filterElements = function(arr, fn){
     }
 
     return outputArray
+
+    /*
+        return arr.filter(fn)
+    */ 
 }
