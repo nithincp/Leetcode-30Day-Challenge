@@ -1,13 +1,5 @@
-const a = {
-  x: [],
-};
+array = [1,2,4,5]
 
-const b = {
-  y: [],
-};
+newarray = [8,6]
 
-if (a["x"] !== b["y"]) {
-  console.log(true);
-} else {
-  console.log(false);
-}
+console.log([...array,...newarray])
