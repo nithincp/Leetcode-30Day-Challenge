@@ -1,5 +1,5 @@
-array = [1,2,4,5]
+let monstersArray = ["orc", "demon", "goblin"]
 
-newarray = [8,6]
-
-console.log([...array,...newarray])
+for (let i=0;i<4;i++){
+    console.log(monstersArray.shift());
+}
